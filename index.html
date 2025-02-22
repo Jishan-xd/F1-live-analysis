@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Live Data Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; 
+            </div>
+            <div class="logo">
+                <img src="logo.jpeg" alt="f1logo">
+            </div> 
+            <h1 class="site-title">F1 live Analysis</h1> 
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button class="search-btn">Search</button>
+            </div> 
+            <button class="login-btn">Login</button> 
+        </nav>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="close-btn" onclick="toggleMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Teams</a>
+        <a href="#">Drivers</a>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
