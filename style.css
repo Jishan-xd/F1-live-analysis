@@ -99,3 +99,17 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.live-race, .live-race-table, .race-prdiction {
+    background: #1c1c1c;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+
+
+}
